@@ -21,7 +21,7 @@ Steps :
       // aFilters is the filters array that can be created with many filters using a get call
       // filters() is added when ever filter data is given , and fetching the data using the filters
       var aContexts = await oListBinding.filter(aFilters).requestContexts(0,99999);
-==================================================================================================================================================================
+\==================================================================================================================================================================
       -> POST or Create call 
       // This will get the mainService Model
         var oModel = this.getOwnerComponent().getModel(); 
